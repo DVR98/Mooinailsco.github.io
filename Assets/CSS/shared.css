@@ -57,19 +57,19 @@ hr {
   background-size: cover;
 }
 
-@media screen and (max-width: 300px) {
-  .parallax {
-      background-size: 414px;
-  }
-}
-
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 300px) {
   .parallax {
       background-size: 500px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 414px) {
+  .parallax {
+      background-size: 500px;
+  }
+}
+
+@media screen and (min-width: 500px) {
   .parallax {
       background-size: cover;
   }
