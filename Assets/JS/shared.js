@@ -3,10 +3,14 @@ var winWidth = $(window).width();
 $(window).resize(function() {
   winWidth = $(window).width();
   if(winWidth > 985){
-    $('.navbar-nav>li>a').addClass("text-white");
+    if (window.scrollY == 0) {
+      $('.navbar-nav>li>a').addClass("text-white");
+      document.getElementById("nav").classList.add("bg-transparent");
+    }
   }
   else {
     $('.navbar-nav>li>a').removeClass("text-white");
+    document.getElementById("nav").classList.remove("bg-transparent");
   };
 });
 
