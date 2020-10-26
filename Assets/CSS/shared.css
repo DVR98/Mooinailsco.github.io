@@ -59,19 +59,21 @@ hr {
 
 @media screen and (min-width: 300px) {
   .parallax {
-      background-size: 500px;
+      background-size: 550px;
+      background-position: center !important;
   }
 }
 
 @media screen and (min-width: 414px) {
   .parallax {
-      background-size: 500px;
+      background-size: 600px;
   }
 }
 
 @media screen and (min-width: 500px) {
   .parallax {
       background-size: cover;
+      background-position: right center;
   }
 }
 
