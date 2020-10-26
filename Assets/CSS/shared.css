@@ -1,0 +1,190 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  word-break: normal;
+  word-wrap: break-word;
+  transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(248, 248, 248);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4e5961;
+}
+
+/* custom hr classes */
+
+hr {
+  background-color: #ff9999;
+}
+
+.hr1 {
+  width: 80px;
+}
+
+.hr2 {
+  width: 60px;
+}
+
+.hr3 {
+  width: 40px;
+}
+
+.navbar-collapse {
+  transition: 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+  transition: 0.2s;
+}
+
+.parallax {
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navbar dropdown animation */
+@media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(-0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(-1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(-1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+
+/* navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  display: block;
+  width: 100%;
+  transition: top 0.4s;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+#nav {
+  transition-duration: 0.3s;
+}
+
+.text-white {
+  color: white;
+  text-shadow: 1px 1px 5px #202020;
+}
+
+#nav li a {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+  color: #4e5961;
+}
+
+.navbar-brand img {
+  height: 75px;
+  width: auto;
+}
+
+/* Hover effects only apply to devices with bigger screens like laptops, pc's */
+@media screen and (min-width: 992px){
+  .navbar-nav a, a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .navbar-nav li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+  }
+  .navbar-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .navbar-nav li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+
+  .nav-leftside li:hover:after {
+    width: 100%;
+    background: #ff9999;
+  }
+}
+
+#brand img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px){
+  #nav {
+    background-color: white !important;
+  }
+
+  #nav li {
+    text-align: center;
+  }
+
+  .nav-leftside li a:hover {
+    color: #ff9999;
+  }
+}
