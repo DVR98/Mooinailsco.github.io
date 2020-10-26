@@ -57,6 +57,30 @@ hr {
   background-size: cover;
 }
 
+@media screen and (max-width: 300px) {
+  .parallax {
+      background-size: 414px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .parallax {
+      background-size: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parallax {
+      background-size: cover;
+  }
+}
+
+/* @media screen and (max-width: 992px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+} */
+
 /* navbar dropdown animation */
 @media (min-width: 992px) {
     .animate {
