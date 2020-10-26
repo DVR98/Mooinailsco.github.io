@@ -48,7 +48,6 @@ hr {
 .parallax {
   /* Full height */
   height: 100%;
-  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -57,11 +56,11 @@ hr {
   background-size: cover;
 }
 
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   .parallax {
-      background-position: center !important;
+      background-position: top !important;
   }
-}
+} */
 
 /* @media screen and (min-width: 414px) {
   .parallax {
@@ -69,11 +68,11 @@ hr {
   }
 } */
 
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
   .parallax {
       background-position: right center;
   }
-}
+} */
 
 /* @media screen and (max-width: 992px) {
   .parallax {
