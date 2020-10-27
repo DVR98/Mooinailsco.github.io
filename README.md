@@ -17,6 +17,8 @@
 
 
 
-## Smooth scrolling
+## Booksy download links for Apple and Android Devices
 
+
+![Moói-Nails-_-Co-Download-buttons](https://user-images.githubusercontent.com/50693947/97366909-90d8b800-187e-11eb-9a50-eca3765b224d.gif)
 
