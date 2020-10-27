@@ -6,8 +6,15 @@
 ## Device compatibility
 `PC` `Laptop` `Tablet` `Mobile`
 
+
 ![Moói-Nails-_-Co-Mobile-compatibility](https://user-images.githubusercontent.com/50693947/97366599-f7110b00-187d-11eb-9431-41b2c36150b4.gif)
 
+
+
+## Parallax
+
+
+![Moói-Nails-_-Co-Parallax](https://user-images.githubusercontent.com/50693947/97367200-18262b80-187f-11eb-8265-a1c2e5f65160.gif)
 
 
 ## Smooth scrolling
