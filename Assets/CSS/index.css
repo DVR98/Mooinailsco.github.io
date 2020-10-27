@@ -498,6 +498,14 @@
   top: 7.5px;
 }
 
+.black-and-gold {
+  position: relative;
+  top: -75px;
+  height: 450px !important;
+  position: relative;
+  clip-path: inset(75px 0% 45px 0%)!important;
+}
+
 @media screen and (min-width: 300px) {
   
   .gallery-card {
