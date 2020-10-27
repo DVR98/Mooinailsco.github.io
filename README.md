@@ -2,4 +2,4 @@ Official Moói Nails &amp; Co. website
 
 Created by DVR98
 
-`hello`
+`#HTML` `#CSS` `#JavaScript` `#jQuery` `#Bootstrap`
