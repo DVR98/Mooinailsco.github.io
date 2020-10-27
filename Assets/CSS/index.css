@@ -498,7 +498,7 @@
   top: 7.5px;
 }
 
-.black-and-gold {
+.black-and-gold-image {
   position: relative;
   top: -75px;
   height: 450px !important;
@@ -531,6 +531,15 @@
   .gallery-card-back div h1 {
     position: relative;
     top: 3px;
+  }
+
+  .black-and-gold {
+    position: relative;
+    margin-bottom: 150px !important;
+  }
+
+  .black-and-gold .gallery-card-back {
+    height: 45% !important;
   }
 }
 
@@ -568,6 +577,15 @@
   .gallery-card img {
     height: 330px;
     width: 330px;
+  }
+
+  .black-and-gold {
+    position: relative;
+    margin-bottom: 120px !important;
+  }
+
+  .black-and-gold .gallery-card-back {
+    height: 30% !important;
   }
 
   .gallery-card-back div h1 {
