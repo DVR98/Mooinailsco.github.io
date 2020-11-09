@@ -232,6 +232,16 @@
         margin-right: 5px;
     }
 
+    .fa-facebook-f {
+      border-radius: 0%;
+      width: 100px;
+    }
+  
+    .fa-instagram {
+      border-radius: 0%;
+      width: 100px;
+    }
+
     .book_now1 {
       display: block;
     }
@@ -760,10 +770,6 @@
   .policies-items h3 {
     color: #ff9999;
   }
-
-  /* .policies h2 {
-    font-family: 'Dancing Script', cursive;
-  } */
 
   .policies h2 i {
     color: #ff9999;
