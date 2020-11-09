@@ -239,16 +239,6 @@
     .book_now2 {
       display: none;
     }
-
-    .fa-facebook-f {
-      border-radius: 0%;
-      width: 100px;
-    }
-
-    .fa-instagram {
-      border-radius: 0%;
-      width: 100px;
-    }
 }
 
 /* About */
@@ -802,6 +792,24 @@
   }
 
   /* Appointments */
+  .appointments-social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .appointments-social-links .fa-facebook-f {
+    border-radius: 0%;
+    width: 100px;
+    margin-right: 10px;
+  }
+
+  .appointments-social-links .fa-instagram {
+    border-radius: 0%;
+    width: 100px;
+    margin-left: 10px;
+  }
+
   .appointments-container img {
     height: 80px;
     width: 80px;
