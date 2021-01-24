@@ -150,7 +150,7 @@
 .introduction article{
     height: 100%;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 240px;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -253,6 +253,21 @@
 
 /* About */
 
+.about-introduction section {
+  min-width: 250px;
+}
+
+.about-introduction h1 {
+  color: #5c6972 !important;
+  font-weight: 300;
+}
+
+.about-introduction div {
+  width: 75px;
+  height: 6px;
+  background-color: #ff9999;
+}
+
 .about article {
   text-align: center;
   padding-top: 50px;
@@ -297,6 +312,12 @@
   margin-top: -20%;
 }
 
+/* Peter Kerr profile pic */
+
+/* .peter-kerr-pfp {
+  clip-path: inset(0px 150px 0px 0px);
+} */
+
 @media screen and (min-width: 300px)
   {
     #about_image img {
@@ -318,6 +339,14 @@
       margin-left: 18%;
       margin-top: -20%;
     }   
+
+    .our-team-first {
+      display: block;
+    }
+
+    .our-team-last {
+      display: none;
+    }
   }
 
 @media screen and (min-width: 360px)
@@ -375,6 +404,16 @@
     }
   }
 
+  @media screen and (min-width: 650px){
+    .our-team-first {
+      display: none;
+    }
+
+    .our-team-last {
+      display: block;
+    }
+  }
+
   @media screen and (min-width: 748px)
   {
     #about_description section:first-child {
@@ -404,6 +443,15 @@
 
   @media screen and (min-width: 1023px)
   {
+    .card-info {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .card-pfp {
+      min-width: 400px;
+    }
+
     #about_image img {
       height: 320px !important; 
       width: 450px !important; 
@@ -888,6 +936,33 @@
     width: 100%;
     word-break: break-all;
     word-wrap: break-word;
+  }
+
+  @media screen and (min-width: 260px) {
+    .services-background-images {
+      height: 550px;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    .services-background-images {
+      height: 650px;
+    }
+  }
+
+  @media screen and (min-width: 998px) {
+    .services-background-images {
+      height: 750px;
+    }
+  }
+
+  .services-background-images article {
+    width: 50%;
+  }
+
+  .services-background-images img {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
   }
 
   .services-container {
