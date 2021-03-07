@@ -43,6 +43,18 @@
 }
 
 /* Social links */
+.appointments-social-links .fa-facebook-f {
+  border-radius: 0%;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.appointments-social-links .fa-instagram {
+  border-radius: 0%;
+  width: 100px;
+  margin-left: 10px;
+}
+
 .fab {
   padding: 10px;
   font-size: 18px;
@@ -313,10 +325,6 @@
 }
 
 /* Peter Kerr profile pic */
-
-/* .peter-kerr-pfp {
-  clip-path: inset(0px 150px 0px 0px);
-} */
 
 @media screen and (min-width: 300px)
   {
@@ -852,18 +860,6 @@
     justify-content: center;
   }
 
-  .appointments-social-links .fa-facebook-f {
-    border-radius: 0%;
-    width: 100px;
-    margin-right: 10px;
-  }
-
-  .appointments-social-links .fa-instagram {
-    border-radius: 0%;
-    width: 100px;
-    margin-left: 10px;
-  }
-
   .appointments-container img {
     height: 80px;
     width: 80px;
@@ -1030,30 +1026,6 @@
   font-weight: 300;
 }
 
-.footer li i {
-  color: rgb(85, 85, 85);
-}
-
-.footer ul {
-  list-style: none;
-  padding-left: 10px;
-  font-size: 20px;
-}
-
-.footer th {
-  padding-left: 10px;
-  font-size: 18px;
-}
-
-.footer tr {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer ul li {
-  display: block;
-}
-
 .contact-info {
   min-width: 350px;
 }
@@ -1063,40 +1035,15 @@
 }
 
 @media screen and (min-width: 300px){
-  .contact-info section {
-    padding-left: 10%;   
-  }
-
   .contact-info section article {
     text-align: center;
   }
 }
 
-@media screen and (min-width: 414px){
-  .contact-info section {
-    padding-left: 10%;
-  }
-}
-
 @media screen and (min-width: 748px){
-  .contact-info section {
-    padding-left: 5%;
-  }
 
   .contact-info section article {
     text-align: left;
-  }
-}
-
-@media screen and (min-width: 1024px){
-  .contact-info section {
-    padding-left: 5%;
-  }
-}
-
-@media screen and (min-width: 1240px){
-  .contact-info section {
-    padding-left: 3%;
   }
 }
 
@@ -1106,10 +1053,6 @@
 
 .contact-info .col {
   min-width: 300px;
-}
-
-.business-hours {
-  min-width: 350px;
 }
 
 /* Location */
