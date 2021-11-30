@@ -6,17 +6,12 @@ $(window).resize(function() {
 
 //On ready
 $(document).ready(function () {
-    //removed flipping card animation
+    document.getElementById("introduction").style.opacity = "1";
 
-    // $(".flip-card").click(function() {
-    //     if ($('.flip-card-inner').css("transform") == 'none'){
-    //         $('.flip-card-inner').css("transform","rotateY(180deg)");
-    //     } else {
-    //         $('.flip-card-inner').css("transform","");
-    //     }      
-    //  });  
-
-     winWidth = $(window).width();   
+     winWidth = $(window).width(); 
+     $("#nails-gallery").click(function(){
+         window.location.href= "Assets/Pages/Nails_Gallery.html";
+     })  
  });
 
 

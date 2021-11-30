@@ -18,8 +18,6 @@ $(window).resize(function() {
 $(document).ready(function () {
     var nav = document.getElementById("navbar");
 
-    document.getElementById("introduction").style.opacity = "1";
-
     // When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
     var prevScrollpos = window.pageYOffset;
     winWidth = $(window).width();
@@ -67,7 +65,7 @@ $(document).ready(function () {
     });
 
     // Select all links with hashes
-    $("a").on('click', function(event) {
+    $(".nav-leftside>li>a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior

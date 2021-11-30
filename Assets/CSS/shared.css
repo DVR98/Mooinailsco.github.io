@@ -18,6 +18,39 @@ h1, h2, h3, h4, h5, h6 {
   color: #4e5961;
 }
 
+/* Book now buttons */
+.book-now {
+  color: white !important;
+  background-color: #ff9999;
+  text-shadow: none !important;
+  padding: 15px 15px 15px 15px;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 992px){
+  .book-now:hover {
+    opacity: 0.9;
+  }
+}
+
+.book_now1 {
+  display: none;
+}
+
+.book_now2 {
+  display: block;
+}
+
+@media screen and (max-width: 992px){
+  .book_now1 {
+    display: block;
+  }
+
+  .book_now2 {
+    display: none;
+  }
+}
+
 /* custom hr classes */
 
 hr {
@@ -50,6 +83,7 @@ hr {
   /* height: 100%;  */
 
   /* Create the parallax scrolling effect */
+  height: 750px;
   background-attachment: fixed;
   background-position: right center;
   background-repeat: no-repeat;
@@ -62,7 +96,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 750px) {
   .parallax {
       background-attachment: fixed;
   }
